@@ -2,12 +2,7 @@
   "name": "@gonetone/google-play-api",
   "version": "1.3.1",
   "description": "Access Google Play by logging in and making requests as an Android device!",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    "require": "./dist/index.js",
-    "types": "./dist/index.d.ts"
-  },
+  "main": "./dist/GooglePlayAPI.js",
   "directories": {
     "lib": "src",
     "test": "__tests__"

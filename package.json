@@ -1,5 +1,5 @@
 {
-  "name": "@gonetone/google-play-api",
+  "name": "@Haliq0841/google-play-store-api",
   "version": "1.3.1",
   "description": "Access Google Play by logging in and making requests as an Android device!",
   "main": "./dist/GooglePlayAPI.js",

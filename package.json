@@ -14,13 +14,6 @@
     "docs",
     "README*.md"
   ],
-  "scripts": {
-    "build": "tsc",
-    "test": "jest",
-    "lint": "eslint src/*.ts",
-    "lint:fix": "eslint src/*.ts --fix",
-    "proto:generate_dts": "pbjs -t static-module -w commonjs -o proto/google_play.js proto/google_play.proto && pbts -o proto/google_play.d.ts proto/google_play.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/GoneToneStudio/node-google-play-api.git"

@@ -14,6 +14,13 @@
     "docs",
     "README*.md"
   ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/*.ts",
+    "lint:fix": "eslint src/*.ts --fix",
+    "proto:generate_dts": "pbjs -t static-module -w commonjs -o proto/google_play.js proto/google_play.proto && pbts -o proto/google_play.d.ts proto/google_play.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/GoneToneStudio/node-google-play-api.git"
@@ -32,7 +39,6 @@
     "crawler",
     "google"
   ],
-  "scripts": {}
   "author": {
     "name": "張文相 Wenxiang Zhang (旋風之音 GoneTone)",
     "email": "p29022716@gmail.com",
@@ -67,7 +73,6 @@
     "axios": "^0.21.1",
     "ini": "^2.0.0",
     "lodash": "^4.17.21",
-    "protobufjs": "^6.11.3",
     "qs": "^6.10.1",
     "tslib": "^2.4.0"
   },
